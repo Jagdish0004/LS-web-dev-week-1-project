@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+#header1{
+    background-color: #fff;
+    text-align: center;
+    height: 30px;
+    }
+#img1{
+    height: 80%;
+    padding:0.1% 11%;
+}
+
+/* #img2{
+    height: 92%;
+    display: flex;
+    position: relative; top: 10px;left: 50px;
+} */
+#h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#header2 {
+  
+    background: #ed3636;
+    color: #eeecec;
+    padding: 1rem 0;
+    text-align: center;
+    height: 180px;
+    display: flexbox;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 7%;
+    font-size: larger;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bimage {
+    background-image: url('https://bwfbadminton.com/wp-content/themes/fansite-2020/assets/images/temp/7-All-01.jpg');
+    background-size: cover;
+    background-blend-mode: hard-light;
+    padding: 10%;
+    color: #fff;
+}
+
+.bimage1 {
+    background-image: url('https://bwfbadminton.com/wp-content/themes/fansite-2020/assets/images/ranking-background/WorldRankings_Background_Web.png');
+    background-size: cover;
+    background-blend-mode: hard-light;
+    padding: 2%;
+    color: #fff;
+}
+
+.bimage2 {
+    background-image: url('https://bwfbadminton.com/wp-content/themes/fansite-2020/assets/images/temp/Players_Web.png');
+    background-size: cover;
+    background-blend-mode: hard-light;
+    padding: 5%;
+    color: #fff;
+}
+
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
